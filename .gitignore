@@ -1,0 +1,25 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# This is a PUBLIC static-site repo. It must NEVER contain application code,
+# secrets, or environment files. The entries below are belt-and-suspenders:
+# if any of these ever appear here, something has gone wrong — do not commit them.
+.env
+.env.*
+*.env
+credentials.json
+*_credentials.json
+token.json
+token*.json
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+multi_account_config.json

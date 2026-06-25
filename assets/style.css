@@ -1,0 +1,45 @@
+/* Small custom layer on top of Tailwind (loaded via CDN in each page).
+   Keep this minimal — most styling is Tailwind utility classes inline. */
+
+:root {
+  --brand: #4f46e5;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Respect users who prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Readable long-form copy on the privacy / terms pages. */
+.prose-legal h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.prose-legal h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+.prose-legal p,
+.prose-legal li {
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+.prose-legal ul {
+  margin: 0.5rem 0 0.5rem 1.25rem;
+  list-style: disc;
+}
+.prose-legal a {
+  color: #a5b4fc;
+  text-decoration: underline;
+}
