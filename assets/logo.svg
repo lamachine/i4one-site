@@ -7,5 +7,5 @@
   </defs>
   <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#g)"/>
   <text x="32" y="43" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800"
-        text-anchor="middle" fill="#ffffff">I4</text>
+        text-anchor="middle" fill="#ffffff">i4</text>
 </svg>
